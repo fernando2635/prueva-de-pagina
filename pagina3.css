@@ -1,0 +1,127 @@
+#home{
+width: 32px;
+height: auto;
+}
+#instagram{
+width: 32px;
+height: auto;
+}
+#signo:hover{
+background-color: lightblue;
+}
+footer:hover{
+	color: blue;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h1 {
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Para evitar que el contenido sea visible detrás de la barra de navegación al expandirse */
+}
+
+.sidebar {
+    width: 60px; /* Ancho inicial de la barra de navegación */
+    height: 100%;
+    background-color: #000;
+    color: white;
+    position: fixed;
+    transition: width 0.3s ease; /* Transición suave del ancho */
+    overflow: hidden;
+}
+
+.sidebar:hover {
+    width: 250px; /* Ancho expandido de la barra de navegación al acercar el cursor */
+}
+
+.sidebar h1 {
+    margin: 20px auto;
+    display: none; /* Ocultamos el encabezado en el estado expandido */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
